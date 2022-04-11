@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90B91C327D26AD60090E4F3 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B91C227D26AD60090E4F3 /* Birthday.swift */; };
+		F97B7BB927D3E0E600498692 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B7BB827D3E0E600498692 /* TableViewCell.swift */; };
+		F9BA571E27DB6CF10031A1A1 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA571D27DB6CF10031A1A1 /* CoreDataManager.swift */; };
+		F9DC99C027D24A87007AD330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC99BF27D24A87007AD330 /* AppDelegate.swift */; };
+		F9DC99C227D24A87007AD330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC99C127D24A87007AD330 /* SceneDelegate.swift */; };
+		F9DC99C427D24A87007AD330 /* BirthdaysVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC99C327D24A87007AD330 /* BirthdaysVC.swift */; };
+		F9DC99C727D24A87007AD330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DC99C527D24A87007AD330 /* Main.storyboard */; };
+		F9DC99CA27D24A87007AD330 /* BirthdayInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9DC99C827D24A87007AD330 /* BirthdayInfo.xcdatamodeld */; };
+		F9DC99CC27D24A88007AD330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9DC99CB27D24A88007AD330 /* Assets.xcassets */; };
+		F9DC99CF27D24A88007AD330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DC99CD27D24A88007AD330 /* LaunchScreen.storyboard */; };
+		F9DC99E027D24FD9007AD330 /* AddBirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC99DF27D24FD9007AD330 /* AddBirthdayVC.swift */; };
+		F9EF621427DF5B980002BF0F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF621327DF5B980002BF0F /* NotificationManager.swift */; };
+		F9EF621927DF5E520002BF0F /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF621827DF5E520002BF0F /* UITextField+.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F90B91C227D26AD60090E4F3 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		F97B7BB827D3E0E600498692 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F9BA571D27DB6CF10031A1A1 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F9DC99BC27D24A87007AD330 /* BirthdayReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DC99BF27D24A87007AD330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9DC99C127D24A87007AD330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9DC99C327D24A87007AD330 /* BirthdaysVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysVC.swift; sourceTree = "<group>"; };
+		F9DC99C627D24A87007AD330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9DC99C927D24A87007AD330 /* BirthdayReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayReminder.xcdatamodel; sourceTree = "<group>"; };
+		F9DC99CB27D24A88007AD330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9DC99CE27D24A88007AD330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9DC99D027D24A88007AD330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9DC99DF27D24FD9007AD330 /* AddBirthdayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayVC.swift; sourceTree = "<group>"; };
+		F9EF621327DF5B980002BF0F /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		F9EF621827DF5E520002BF0F /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9DC99B927D24A87007AD330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9BA571C27DB6C610031A1A1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F9DC99BF27D24A87007AD330 /* AppDelegate.swift */,
+				F9DC99C127D24A87007AD330 /* SceneDelegate.swift */,
+				F9DC99CB27D24A88007AD330 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F9DC99B327D24A87007AD330 = {
+			isa = PBXGroup;
+			children = (
+				F9DC99BE27D24A87007AD330 /* BirthdayReminder */,
+				F9DC99BD27D24A87007AD330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9DC99BD27D24A87007AD330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9DC99BC27D24A87007AD330 /* BirthdayReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9DC99BE27D24A87007AD330 /* BirthdayReminder */ = {
+			isa = PBXGroup;
+			children = (
+				F9EF621727DF5E350002BF0F /* Extensions */,
+				F9EF621227DF5B6E0002BF0F /* Managers */,
+				F9DC99D627D24CC8007AD330 /* Model */,
+				F9DC99D727D24CD1007AD330 /* View */,
+				F9DC99D827D24CD9007AD330 /* Controller */,
+				F9BA571C27DB6C610031A1A1 /* Support */,
+				F9DC99D027D24A88007AD330 /* Info.plist */,
+				F9DC99C827D24A87007AD330 /* BirthdayInfo.xcdatamodeld */,
+			);
+			path = BirthdayReminder;
+			sourceTree = "<group>";
+		};
+		F9DC99D627D24CC8007AD330 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F90B91C227D26AD60090E4F3 /* Birthday.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9DC99D727D24CD1007AD330 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9DC99CD27D24A88007AD330 /* LaunchScreen.storyboard */,
+				F9DC99C527D24A87007AD330 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9DC99D827D24CD9007AD330 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9DC99C327D24A87007AD330 /* BirthdaysVC.swift */,
+				F9DC99DF27D24FD9007AD330 /* AddBirthdayVC.swift */,
+				F9DC99DA27D24DEB007AD330 /* CellController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9DC99DA27D24DEB007AD330 /* CellController */ = {
+			isa = PBXGroup;
+			children = (
+				F97B7BB827D3E0E600498692 /* TableViewCell.swift */,
+			);
+			path = CellController;
+			sourceTree = "<group>";
+		};
+		F9EF621227DF5B6E0002BF0F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F9BA571D27DB6CF10031A1A1 /* CoreDataManager.swift */,
+				F9EF621327DF5B980002BF0F /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F9EF621727DF5E350002BF0F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9EF621827DF5E520002BF0F /* UITextField+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9DC99BB27D24A87007AD330 /* BirthdayReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DC99D327D24A88007AD330 /* Build configuration list for PBXNativeTarget "BirthdayReminder" */;
+			buildPhases = (
+				F9DC99B827D24A87007AD330 /* Sources */,
+				F9DC99B927D24A87007AD330 /* Frameworks */,
+				F9DC99BA27D24A87007AD330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayReminder;
+			productName = BirthdayReminder;
+			productReference = F9DC99BC27D24A87007AD330 /* BirthdayReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9DC99B427D24A87007AD330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F9DC99BB27D24A87007AD330 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F9DC99B727D24A87007AD330 /* Build configuration list for PBXProject "BirthdayReminder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9DC99B327D24A87007AD330;
+			productRefGroup = F9DC99BD27D24A87007AD330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9DC99BB27D24A87007AD330 /* BirthdayReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9DC99BA27D24A87007AD330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DC99CF27D24A88007AD330 /* LaunchScreen.storyboard in Resources */,
+				F9DC99CC27D24A88007AD330 /* Assets.xcassets in Resources */,
+				F9DC99C727D24A87007AD330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9DC99B827D24A87007AD330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DC99C427D24A87007AD330 /* BirthdaysVC.swift in Sources */,
+				F90B91C327D26AD60090E4F3 /* Birthday.swift in Sources */,
+				F9DC99E027D24FD9007AD330 /* AddBirthdayVC.swift in Sources */,
+				F9EF621427DF5B980002BF0F /* NotificationManager.swift in Sources */,
+				F9DC99C027D24A87007AD330 /* AppDelegate.swift in Sources */,
+				F97B7BB927D3E0E600498692 /* TableViewCell.swift in Sources */,
+				F9DC99CA27D24A87007AD330 /* BirthdayInfo.xcdatamodeld in Sources */,
+				F9BA571E27DB6CF10031A1A1 /* CoreDataManager.swift in Sources */,
+				F9DC99C227D24A87007AD330 /* SceneDelegate.swift in Sources */,
+				F9EF621927DF5E520002BF0F /* UITextField+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9DC99C527D24A87007AD330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9DC99C627D24A87007AD330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9DC99CD27D24A88007AD330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9DC99CE27D24A88007AD330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9DC99D127D24A88007AD330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9DC99D227D24A88007AD330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9DC99D427D24A88007AD330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirthdayReminder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.BirthdayReminder.BirthdayReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9DC99D527D24A88007AD330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirthdayReminder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.BirthdayReminder.BirthdayReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9DC99B727D24A87007AD330 /* Build configuration list for PBXProject "BirthdayReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DC99D127D24A88007AD330 /* Debug */,
+				F9DC99D227D24A88007AD330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DC99D327D24A88007AD330 /* Build configuration list for PBXNativeTarget "BirthdayReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DC99D427D24A88007AD330 /* Debug */,
+				F9DC99D527D24A88007AD330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9DC99C827D24A87007AD330 /* BirthdayInfo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9DC99C927D24A87007AD330 /* BirthdayReminder.xcdatamodel */,
+			);
+			currentVersion = F9DC99C927D24A87007AD330 /* BirthdayReminder.xcdatamodel */;
+			path = BirthdayInfo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9DC99B427D24A87007AD330 /* Project object */;
+}
